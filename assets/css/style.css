@@ -1,0 +1,168 @@
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient( 259deg,  rgba(222,95,95,0.1) -5%, rgba(53,88,218,0.1) 133.7% );
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, p, label {
+    color: rgb(87, 87, 87)
+}
+
+input {
+    height: 25px;
+    margin: 10px 0;
+    border:solid 1px rgb(201, 201, 201);
+}
+
+textarea {
+    margin-top: 10px;
+    border:solid 1px rgb(201, 201, 201);
+}
+
+header {
+    background: linear-gradient( 259deg,  rgba(222,95,95,1) -5%, rgba(53,88,218,1) 133.7% );
+    clear: both;
+    color: white;
+    width: 100%;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.container h1 {
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 32px;
+    font-size: 15px;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+p {
+    line-height: 150%;
+}
+
+#bioimage {
+    float: left;
+    padding-right: 10px;
+}
+
+#about-me, #portfolio, #contactme {
+    border:solid 1px rgb(201, 201, 201);
+    padding: 0 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+textarea {
+    resize: none
+}
+
+button {
+    margin: 10px 0;
+    width: 100px;
+    height: 25px;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px 20px 30px;
+}
+
+.banner {
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-top: 170px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(71, 71, 71);
+    vertical-align: middle;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.link a:hover {
+    color: lightslategray;;
+}
+
+.link a:visited {
+    text-decoration: none;
+}
+
+footer {
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient( 259deg,  rgba(160,92,142,1) -5%, rgba(126,91,166,1) 133.7% );
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 700px;
+    }
+    }
+
+@media screen and (max-width: 980px) {
+    }    
+    
+@media screen and (max-width: 640px) {
+    .container {
+        width: 390px;
+    }
+    footer {
+        position: static;
+    }
+    }
+    
