@@ -155,17 +155,22 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 980px) {
+    .container {
+        width: 760px;
+    }
+    }   
+
 @media screen and (max-width: 768px) {
     .container {
-        width: 700px;
+        width: 600px;
     }
     input[type="text"] {
         width: 80%;
     }
     }
 
-@media screen and (max-width: 980px) {
-    }    
+ 
     
 @media screen and (max-width: 640px) {
     .container {
