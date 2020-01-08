@@ -11,6 +11,7 @@ body {
     padding: 0;
     background: linear-gradient( 259deg,  rgba(222,95,95,0.1) -5%, rgba(53,88,218,0.1) 133.7% );
     font-family: 'Lato', sans-serif;
+    margin-bottom: 50px;
 }
 
 h1, h2, p, label {
@@ -84,12 +85,13 @@ p {
     border:solid 1px rgb(201, 201, 201);
     padding: 0 25px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     background-color: white;;
 }
 
 input[type="text"] {
     width: 200px;
+    border-radius: 6px;
 }
 
 textarea {
@@ -102,6 +104,7 @@ button {
     margin: 10px 0;
     width: 100px;
     height: 25px;
+    border-radius: 6px;
 }
 
 button:hover {
@@ -153,6 +156,7 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 980px) {
@@ -170,8 +174,6 @@ footer {
     }
 }
 
- 
-    
 @media screen and (max-width: 640px) {
     .container {
         width: 390px;
